@@ -29,3 +29,9 @@ Error:
 
 This is the default configuration
 ```
+
+## Fix
+
+To fix this error, the DyreExample library needs to be installed. This is done by running `cabal install`. After that the `./build_and_test.sh` should work without errors.
+
+I am still wondering if it is possible to run Dyre in an executable, without need for an additional library, with Cabal.
